@@ -1,0 +1,6 @@
+.idea
+*.iml
+scratch*.rb
+scratch.js
+scratch.txt
+scratch.rake
