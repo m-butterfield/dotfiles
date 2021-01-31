@@ -16,6 +16,7 @@
 	co = checkout
 	st = status
 [user]
+	name = Matt Butterfield
 	email = matt.butterfield@shopify.com
 [credential]
 	helper = 
