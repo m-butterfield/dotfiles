@@ -5,6 +5,7 @@ tmux source-file ~/.tmux.conf
 
 echo "alias l=\"ls -lah\"" >> ~/.zshrc
 
-# sudo apt-get -y install ruby-dev
 gem install solargraph
+sudo apt-get -y install ruby-dev
+sudo gem install solargraph
 solargraph bundle
