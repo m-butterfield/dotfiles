@@ -8,4 +8,4 @@ echo "alias l=\"ls -lah\"" >> ~/.zshrc
 gem install solargraph
 sudo apt-get -y install ruby-dev
 sudo gem install solargraph
-solargraph bundle
+# solargraph bundle
