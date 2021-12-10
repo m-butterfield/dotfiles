@@ -1,11 +1,2 @@
 #!/usr/bin/env bash
-cp -rp ~/dotfiles/. ~/
-
-tmux source-file ~/.tmux.conf
-
-echo "alias l=\"ls -lah\"" >> ~/.zshrc
-
-gem install solargraph
-sudo apt-get -y install ruby-dev
-sudo gem install solargraph
-# solargraph bundle
+cp ~/dotfiles/.zshrc ~/
