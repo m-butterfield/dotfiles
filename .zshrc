@@ -21,3 +21,7 @@ autoload -Uz compinit && compinit
 
 setopt noautomenu
 setopt nomenucomplete
+
+
+export PYTHONBREAKPOINT=ipdb.set_trace
+
