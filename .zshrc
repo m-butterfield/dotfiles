@@ -15,7 +15,6 @@ then
 fi
 
 zstyle ':completion:*:*:git:*' script ~/.git-completion.bash
-fpath=(~/.zsh $fpath)
 
 autoload -Uz compinit && compinit
 
