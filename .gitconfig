@@ -1,3 +1,10 @@
+[user]
+	name = Matt Butterfield
+	email = matt@mattbutterfield.com
 [alias]
-     st = status
-     co = checkout
+	st = status
+	co = checkout
+[core]
+	excludesfile = /Users/matt/.gitignoreglobal
+[init]
+	defaultBranch = main
