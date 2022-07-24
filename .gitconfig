@@ -8,3 +8,5 @@
 	excludesfile = /Users/matt/.gitignoreglobal
 [init]
 	defaultBranch = main
+[push]
+	autoSetupRemote = true
