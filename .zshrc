@@ -21,9 +21,10 @@ autoload -Uz compinit && compinit
 setopt noautomenu
 setopt nomenucomplete
 
-
 export PYTHONBREAKPOINT=ipdb.set_trace
 
-export CPATH=/opt/homebrew/include
-export LIBRARY_PATH=/opt/homebrew/lib
+alias history="history 1"
+HISTSIZE=99999
+SAVEHIST=$HISTSIZE
 
+setopt SHARE_HISTORY HIST_IGNORE_DUPS
