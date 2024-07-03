@@ -6,6 +6,8 @@ alias resetmain='git fetch && git co main && git reset --hard origin/main && git
 alias rebasemaster='git stash && git pull -r origin master && git stash apply'
 alias rebasemain='git stash && git pull -r origin main && git stash apply'
 
+alias blocksites='sudo mv /etc/hosts /etc/hosts_tmp && sudo mv /etc/hosts_2 /etc/hosts && sudo mv /etc/hosts_tmp /etc/hosts_2'
+
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 if type brew &>/dev/null
