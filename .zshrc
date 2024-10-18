@@ -28,7 +28,7 @@ setopt nomenucomplete
 export PYTHONBREAKPOINT=ipdb.set_trace
 
 alias history="history 1"
-HISTSIZE=99999
-SAVEHIST=$HISTSIZE
+export HISTSIZE=99999
+export SAVEHIST=$HISTSIZE
 
 # setopt SHARE_HISTORY HIST_IGNORE_DUPS
